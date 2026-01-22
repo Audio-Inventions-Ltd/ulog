@@ -74,7 +74,8 @@ typedef enum {
   ULOG_WARNING_LEVEL,
   ULOG_ERROR_LEVEL,
   ULOG_CRITICAL_LEVEL,
-  ULOG_ALWAYS_LEVEL
+  ULOG_ALWAYS_LEVEL,
+  ULOG_UNKNOWN_LEVEL,
 } ulog_level_t;
 
 // The following macros enable or disable uLog.  If `ULOG_ENABLED` is
